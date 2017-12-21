@@ -43,7 +43,8 @@ class LinkedList(object):
 
     @property
     def head(self):
-        return self._data[0]
+        if self._data:
+            return self._data[0]
 
 
 if __name__ == '__main__':
