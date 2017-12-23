@@ -4,7 +4,7 @@ EXPECTED = [1, 2, 2, 3, 4, 5, 5, 10, 21, 28, 34, 34, 63, 73, 75, 85, 456]
 
 
 def test(func):
-    print('\nTo sorting %s length' % len(TO_SORT))
+    print('\nTo sorting for arr length=%s:' % len(TO_SORT))
     print(' ', TO_SORT)
     print('Expected:')
     print(' ', EXPECTED)
